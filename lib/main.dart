@@ -27,6 +27,15 @@ class _HomePageState extends State<HomePage> {
 
         ],
       ),
+
+      drawer: new Drawer(
+        child: new ListView(
+           children: <Widget>[
+           //  header
+             new  UserAccountsDrawerHeader(accountName: Text('Shrayan Bandyopadhyay'), accountEmail: Text('22shrayan@gmail.com'))
+           ],
+        ),
+      ),
     );
   }
 }
