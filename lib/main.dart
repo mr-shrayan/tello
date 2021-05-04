@@ -46,10 +46,38 @@ class _HomePageState extends State<HomePage> {
             ),
 
             // body
-            ListTile(
-              title: Text('Home Page'),
-              leading: Icon(Icons.home),
-            )
+            InkWell(
+              onTap:  (){},
+              child: ListTile(
+                title: Text('Home Page'),
+                leading: Icon(Icons.home),
+              ),
+            ),
+
+            InkWell(
+              onTap:  (){},
+              child: ListTile(
+                title: Text('My Account'),
+                leading: Icon(Icons.person),
+              ),
+            ),
+
+            InkWell(
+              onTap:  (){},
+              child: ListTile(
+                title: Text('My Orders'),
+                leading: Icon(Icons.shopping_basket),
+              ),
+            ),
+
+            InkWell(
+              onTap:  (){},
+              child: ListTile(
+                title: Text('Categories'),
+                leading: Icon(Icons.dashboard),
+              ),
+            ),
+
           ],
         ),
       ),
