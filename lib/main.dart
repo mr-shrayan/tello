@@ -46,6 +46,10 @@ class _HomePageState extends State<HomePage> {
             ),
 
             // body
+            ListTile(
+              title: Text('Home Page'),
+              leading: Icon(Icons.home),
+            )
           ],
         ),
       ),
